@@ -44,7 +44,7 @@ struct CPPSTRUCTFORUDP
 ```
 发送的数据直接是这个结构体,未进行任何处理.<br>
 可以自行编写服务端模拟或读取数据.
-> 如果你未使用C/Cpp语言作为服务端开发语言,请在C/Cpp下查看`size(CPPSTRUCTFORUDP)`结构体的大小,并保持内存对齐即可.
+> 如果你未使用C/Cpp语言作为服务端开发语言,请在C/Cpp下查看`sizeof(CPPSTRUCTFORUDP)`结构体的大小,并保持内存对齐即可.
 
 # 演示视频
 https://www.bilibili.com/video/BV1gJ4m1K78d/?vd_source=245d55282adf9074f921fe7372d12d75
