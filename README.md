@@ -34,7 +34,7 @@
 struct CPPSTRUCTFORUDP
 {
 	short revs; //转速
-	short MPH; //公里每小时
+	short MPH; //公里每小时 (MPH是英里但仪表用的是公里)
 	short instantaneousFuelConsumption; //瞬时油耗
 	short turbine; //涡轮压力
 	short engineTemperatures; //发动机温度
